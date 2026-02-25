@@ -37,7 +37,7 @@ const Home = ({ addToCart }) => {
         </div>
       </section>
 
-      /* Featured Section */n  
+      /* Featured Section */  
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-10">
           <div>
@@ -50,7 +50,7 @@ const Home = ({ addToCart }) => {
             to="/listings"
             className="text-accent-blue hover:underline font-semibold mt-4 md:mt-0"
           >
-            View All →
+            View All 
           </Link>
         </div>
 
