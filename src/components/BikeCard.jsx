@@ -16,7 +16,7 @@ const BikeCard = ({ bike, addToCart }) => {
                 <div className="absolute top-4 left-4 bg-accent-blue text-black text-xs font-bold px-2 py-1 rounded z-10">
                     {brand}
                 </div>
-            </Link>
+            </Link> 
 
             <div className="p-5">
                 <Link to={`/bike/${id}`} className="block">
