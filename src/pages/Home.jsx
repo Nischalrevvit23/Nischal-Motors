@@ -8,7 +8,7 @@ const Home = ({ addToCart }) => {
 //small change
   return (
     <div className="space-y-16 pb-20">
-      /* Hero Section */
+      {/* Hero Section */}
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 z-0 scale-105"
@@ -37,7 +37,7 @@ const Home = ({ addToCart }) => {
         </div>
       </section>
 
-      /* Featured Section */  
+      {/* Featured Section */}  
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-10">
           <div>

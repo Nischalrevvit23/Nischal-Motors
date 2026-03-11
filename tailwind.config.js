@@ -8,12 +8,12 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: '#1a1a1a', // Dark gray
-          card: '#2a2a2a',    // Slightly lighter gray
+          DEFAULT: '#1a1a1a', 
+          card: '#2a2a2a',    
         },
         accent: {
-          blue: '#00d2ff',    // Neon blue
-          orange: '#ff9d00',  // Neon orange
+          blue: '#00d2ff',    
+          orange: '#ff9d00',  
         }
       }
     },

@@ -61,7 +61,7 @@ const Navbar = ({ cartCount, onOpenCart, onOpenLogin }) => {
                 </div>
             </div>
 
-            {/* Mobile Menu */}
+            {/* Mobile Menu list*/}
             {isOpen && (
                 <div className="md:hidden bg-dark-card border-b border-white/10 animate-in slide-in-from-top duration-300">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
