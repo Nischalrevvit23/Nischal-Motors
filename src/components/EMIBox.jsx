@@ -13,7 +13,7 @@ const EMIBox = () => {
                 <h3 className="text-xl font-bold">EMI Calculator</h3>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-4"> 
                 <div>
                     <label className="block text-gray-400 text-sm mb-1">Down Payment (Rs)</label>
                     <input
