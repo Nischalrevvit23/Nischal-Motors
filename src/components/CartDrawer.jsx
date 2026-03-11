@@ -13,7 +13,7 @@ const CartDrawer = ({ isOpen, onClose, cartItems, onRemove }) => {
             <div
                 className="absolute inset-0 bg-black/60 backdrop-blur-sm"
                 onClick={onClose}
-            ></div>
+            ></div> 
 
             {/* Drawer */}
             <div className="absolute right-0 top-0 h-full w-full max-w-md bg-dark shadow-2xl animate-in slide-in-from-right duration-300 border-l border-white/10 flex flex-col">
