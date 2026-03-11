@@ -66,7 +66,7 @@ const Navbar = ({ cartCount, onOpenCart, onOpenLogin }) => {
                 <div className="md:hidden bg-dark-card border-b border-white/10 animate-in slide-in-from-top duration-300">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         <Link
-                            to="/"
+                            to="/" 
                             onClick={() => setIsOpen(false)}
                             className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-dark"
                         >
